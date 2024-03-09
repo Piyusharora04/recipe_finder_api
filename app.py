@@ -53,6 +53,8 @@ def find_similar_recipes(input_ingredients):
     else:
         return create_empty_response_json()  # From your previous code
     
+
+import json
     
 from flask import Flask, request
 
